@@ -2,4 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root{
+    --red:#AA2B1D;
+}
 
+.bg-red{
+    background-color: var(--red);
+}
+
+.text-red{
+    color: var(--red);
+} */
