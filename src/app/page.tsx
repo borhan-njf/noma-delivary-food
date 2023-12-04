@@ -1,7 +1,16 @@
+import Featured from "@/components/Featured"
+import Offer from "@/components/Offer"
+import Slider from "@/components/Slider"
 
 
-export default function Home() {
+const Home = () => {
   return (
-    <p>hello world</p>
+    <div>
+      <Slider/>
+      <Featured/>
+      <Offer/>
+    </div>
   )
 }
+
+export default Home

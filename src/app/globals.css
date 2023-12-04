@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root{
-    --red:#AA2B1D;
+body,html{
+    overflow-x: hidden;
 }
-
-.bg-red{
-    background-color: var(--red);
-}
-
-.text-red{
-    color: var(--red);
-} */
