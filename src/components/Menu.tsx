@@ -42,7 +42,7 @@ const Menu = () => {
       }
       {
         open && (
-          <div className="bg-red-500 text-white flex flex-col items-center justify-center gap-8 text-3xl absolute left-0 right-0 top-24 w-full h-[calc(100vh-6rem)]">
+          <div className="bg-red-500 text-white flex flex-col items-center justify-center gap-8 text-3xl absolute z-10 left-0 right-0 top-24 w-full h-[calc(100vh-6rem)]">
         {
           links.map(item=>(
             <Link key={item.id} href={item.url}>{item.title.toUpperCase()}</Link>
